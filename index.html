@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sign-in form</title>
+</head>
+<body>
+    <!-- side form -->
+    <div id="mySlide" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" 
+        onclick="closeNav()">&times;</a>
+        <ul class="form">
+            <li><label for="name">
+                <input type="text" name="name" id="name"
+                placeholder="enter your name">
+            </label></li>
+            <li><label for="number">
+                <input type="number" name="phone" id="phone"
+                placeholder="phone number">
+            </label></li>
+            <li class="holder"><label for="btn">
+                <button class="btn-sec">send</button>
+            </label></li>
+        </ul>
+    </div>
+    <!-- main page -->
+    <div id="main">
+        <div class="photog">
+            <img src="./img/p2.jpg" alt="photog">
+        </div>
+        <div class="container">
+            <!-- part one -->
+            <div class="parts">
+                <div class="part">
+                    <p>about us</p>
+                    <h3>company overview</h3>
+                    <p class="content">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Explicabo delectus ea quae vitae, 
+                        at sint similique, maiores exercitationem 
+                        atque deserunt debitis non est porro quis.
+                        Ea doloremque nemo sequi commodi.
+                    </p>
+                </div>
+                <hr class="break">
+                <!-- part 2 -->
+                <div class="part">
+                    <h3>massion statment</h3>
+                    <p class="content">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Placeat molestiae ab illo 
+                        ducimus assumenda 
+                        quidem accusamus adipisci pariatur?
+                    </p>
+                </div>
+                <!-- part 3 -->
+                <div class="part">
+                    <h3>vision</h3>
+                    <p class="content">Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit.
+                        Possimus numquam doloribus
+                        qui vero placeat consequuntur!
+                    </p>
+                </div>
+            </div>
+            <div class="btt">
+                <button class="btn" onclick="openNav()"><span class="sign">➤</span>
+                    contact us</button>
+            </div>  
+        </div>
+    </div>
+    <!-- java script -->
+    <script src="main.js"></script>
+</body>
+</html>
